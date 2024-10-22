@@ -1,1 +1,5 @@
-# Scripts_Linux_Solaris
+# Bash Scripts Project
+
+![](./img/bash-cmd.gif)
+
+![](./img/Linux_AWK.jpg)
