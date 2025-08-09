@@ -1,29 +1,33 @@
 #!/bin/bash
 clear
-echo "You"
+echo "Dear Hiring Manager,"
 sleep 2s
+echo "if"
+sleep 1s
+echo "you"
+sleep 1s
 echo "need"
-sleep 2s
+sleep 1s
 echo "switch"
-sleep 2s
+sleep 1s
 echo "to"
-sleep 2s
-echo "Java 17,"
-sleep 2s
-echo "need"
-sleep 2s
-echo "help?,"
+sleep 1s
+echo "Java 17 and Quarkus Microservices"
+sleep 3s
+echo "for a"
+sleep 1s
+echo "RedHat OpenShift Ecosystem,"
 sleep 2s
 echo "please"
-sleep 2s
+sleep 1s
 echo "contact"
-sleep 2s
+sleep 1s
 echo "me"
-sleep 2s
-echo ":)"
-sleep 2s
+sleep 1s
+echo "https://www.linkedin.com/in/albertoarevalo"
+sleep 3s
 echo "https://georgegxx.github.io"
-sleep 6s
-echo "Bye!"
 sleep 2s
+echo "See u soon!. :)"
+sleep 6s
 clear
