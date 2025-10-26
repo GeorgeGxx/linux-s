@@ -1,0 +1,22 @@
+Verificar el servicio
+# inetadm | grep ftp
+
+Levantar ftp
+# inetadm -e ftp
+
+Tirar ftp
+# inetadm -d ftp
+
+crear una cuenta de usuario de ftp
+# useradd -m -c "Usuario ftp" -d /export/home/ftpuser1 -s /bin/true ftpuser1
+
+Poner password ftpuser1
+# passwd ftpuser1
+
+Agregar el usuario ftpuser1, al archivo /etc/ftpd/ftpaccess
+
+guestuser ftpuser1
+
+Crear y verificar que la linea "/bin/true", aparezca en el archivos /etc/shells
+
+
