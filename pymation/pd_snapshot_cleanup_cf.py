@@ -1,7 +1,9 @@
 # pd_snapshot_cleanup_cf.py
 # Cloud Function entry point to clean old GCP Persistent Disk snapshots
 # Features: dry-run, logging, whitelist, error handling
-# Before, install google-cloud-compute with Powershell > Run as Administrator >  pip install google-cloud-compute
+# Before, install:
+# Google Cloud CLI - GCLOUDSDK (gcloud) - https://cloud.google.com/sdk/docs/install
+# Google Cloud Compute with Powershell > Run as Administrator >  pip install google-cloud-compute
 from google.cloud import compute_v1
 from datetime import datetime, timezone
 import logging
